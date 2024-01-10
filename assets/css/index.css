@@ -1,0 +1,19 @@
+* {
+    color: black !important;
+}
+.header {
+    position: relative;
+}
+.bg-top-img {
+    z-index: -1;
+    position: absolute;
+    top: 230px;
+}
+.bg-top-right-img {
+    position: absolute;
+    right: 0;
+    top: 300px;
+}
+.contact_btn:hover {
+    color: white !important;
+}
