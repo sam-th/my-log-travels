@@ -188,13 +188,25 @@ img {
     width: 129px;
     height: 129px;
 }
-
+.updated {
+    margin-top: 200px;
+}
+.form-input {
+    margin-top: 30px;
+    width: 72%;
+    border: 3px solid black;
+}
+.form-area {
+    height: 171px;
+}
 @media only screen and (max-width: 1600px) {
     .example-section__content-box__examples {
         width: 30% !important;
     }
 }
-
+.form-btn {
+    width: 73%;
+}
 @media only screen and (max-width: 1400px) {
     .example-section__content-box__examples {
         width: 40% !important;
