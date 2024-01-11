@@ -212,27 +212,3 @@ img {
     background-color: #c4c4c4;
     margin-top: 150px;
 }
-
-
-@media only screen and (max-width: 1400px) {
-    .example-section__content-box__examples {
-        width: 40% !important;
-        margin: 0 auto;
-        margin-top: 30px;
-    }
-}
-
-@media only screen and (max-width: 991px) {
-    .example-section__content-box__examples {
-        width: 100% !important;
-        margin: 0 auto;
-    }
-
-    .example-section__img {
-        margin: 0 20%;
-    }
-
-    .navbar-toggler {
-        background: black;
-    }
-}
