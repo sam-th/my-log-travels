@@ -1,19 +1,126 @@
 * {
     color: black !important;
 }
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
 .header {
     position: relative;
+    margin-bottom: 190px;
 }
+
 .bg-top-img {
     z-index: -1;
     position: absolute;
     top: 230px;
 }
+
 .bg-top-right-img {
     position: absolute;
     right: 0;
     top: 300px;
 }
+
 .contact_btn:hover {
     color: white !important;
+}
+
+.remember-section {
+    overflow: hidden;
+    position: relative;
+}
+
+.remember-section__middle {
+    margin: 45px auto;
+}
+
+.remember-section__right-bg {
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+}
+
+.remember-section__left-bg {
+    position: absolute;
+    left: 0;
+}
+
+.remember-section__text {
+    color: rgb(198, 198, 198) !important;
+}
+
+.remember-section__btn {
+    margin-left: 36%;
+    border: 4px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.remember-section__text {
+    margin-bottom: 55px;
+}
+
+.example-section {
+    display: flex;
+    position: relative;
+}
+
+.example-section__content-box {
+    padding-left: 59px;
+    margin-top: 161px;
+}
+
+.example-section__left-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* width: ; */
+}
+
+.example-section__right-bg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.example-section__content-box__examples {
+    margin-right: 10px;
+    margin-top: 35px;
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 1600px) {
+    .example-section__content-box__examples {
+        width: 30% !important;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .example-section__content-box__examples {
+        width: 40% !important;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .example-section__content-box__examples {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+
+    .example-section__img {
+        margin: 0 20%;
+    }
+
+    .navbar-toggler {
+        background: black;
+    }
 }
