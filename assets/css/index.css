@@ -9,7 +9,10 @@ body {
 a {
     text-decoration: none;
 }
-
+img {
+    user-select: none;
+    -webkit-user-drag: none;
+}
 .header {
     position: relative;
     margin-bottom: 190px;
