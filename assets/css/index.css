@@ -98,6 +98,42 @@ img {
     margin-top: 35px;
     margin-right: 30px;
 }
+.place-section {
+    margin-top: 270px;
+    position: relative;
+    margin-left: 24px;
+}
+.place-section__right-bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 770px;
+}
+.place-section__top__left-bg {
+    position: absolute;
+    left: 10%;
+}
+.place-section__content-left {
+    position: relative;
+}
+.place-section__content-left__adhesive-tape {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 50%;
+    rotate: -1deg;
+}
+.place-section__content-left__img {
+    position: absolute;
+    left: 40px;
+    height: 680px;
+    width: 530px;
+}
+.place-section__content-right__bottom-title {
+    line-height: 48px;
+    text-decoration: underline;
+}
+
 
 @media only screen and (max-width: 1600px) {
     .example-section__content-box__examples {
