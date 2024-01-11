@@ -207,6 +207,13 @@ img {
 .form-btn {
     width: 73%;
 }
+
+.footer {
+    background-color: #c4c4c4;
+    margin-top: 150px;
+}
+
+
 @media only screen and (max-width: 1400px) {
     .example-section__content-box__examples {
         width: 40% !important;
