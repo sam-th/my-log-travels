@@ -9,10 +9,12 @@ body {
 a {
     text-decoration: none;
 }
+
 img {
     user-select: none;
     -webkit-user-drag: none;
 }
+
 .header {
     position: relative;
     margin-bottom: 190px;
@@ -98,24 +100,29 @@ img {
     margin-top: 35px;
     margin-right: 30px;
 }
+
 .place-section {
     margin-top: 270px;
     position: relative;
     margin-left: 24px;
 }
+
 .place-section__right-bg {
     position: absolute;
     right: 0;
     top: 0;
     height: 770px;
 }
+
 .place-section__top__left-bg {
     position: absolute;
     left: 10%;
 }
+
 .place-section__content-left {
     position: relative;
 }
+
 .place-section__content-left__adhesive-tape {
     position: absolute;
     z-index: 10;
@@ -123,17 +130,64 @@ img {
     top: 50%;
     rotate: -1deg;
 }
+
 .place-section__content-left__img {
     position: absolute;
     left: 40px;
     height: 680px;
     width: 530px;
 }
+
 .place-section__content-right__bottom-title {
     line-height: 48px;
     text-decoration: underline;
 }
 
+.slider {
+    position: relative;
+    margin-top: 300px;
+}
+
+.slider__left-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.slider__right-bg {
+    position: absolute;
+    right: 0;
+}
+.slider__main {
+    position: relative;
+}
+
+.slider__arow {
+    height: 57px;
+    border: 3px solid black;
+    padding: 0px 10px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.slider__main-slider__arow-left {
+    position: absolute;
+    left: -34px;
+}
+
+.slider__main-slider__arow-right {
+    position: absolute;
+    right: -34px;
+}
+
+.slider__main-slider__slide {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.slider__main-slider__slide__profile-img {
+    width: 129px;
+    height: 129px;
+}
 
 @media only screen and (max-width: 1600px) {
     .example-section__content-box__examples {
