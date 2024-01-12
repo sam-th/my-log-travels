@@ -14,7 +14,9 @@ img {
     user-select: none;
     -webkit-user-drag: none;
 }
-
+.navbar-toggler {
+    background-color: black;
+}
 .header {
     position: relative;
     margin-bottom: 190px;
