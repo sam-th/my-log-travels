@@ -132,7 +132,7 @@ img {
     position: absolute;
     left: 40px;
     height: 680px;
-    width: 530px;
+    /* width: 530px; */
 }
 
 .place-section__content-right__bottom-title {
@@ -170,12 +170,12 @@ img {
 
 .slider__main-slider__arow-left {
     position: absolute;
-    left: -34px;
+    left: -6px;
 }
 
 .slider__main-slider__arow-right {
     position: absolute;
-    right: -34px;
+    right: -6px;
 }
 
 .slider__main-slider__slide {
@@ -184,8 +184,8 @@ img {
 }
 
 .slider__main-slider__slide__profile-img {
-    width: 129px;
-    height: 129px;
+    /* width: 129px;
+    height: 129px; */
 }
 
 .updated {
@@ -194,7 +194,7 @@ img {
 
 .form-input {
     margin-top: 30px;
-    width: 72%;
+    /* width: 72%; */
     border: 3px solid black;
 }
 
@@ -203,7 +203,7 @@ img {
 }
 
 .form-btn {
-    width: 73%;
+    /* width: 73%; */
 }
 
 .footer {
